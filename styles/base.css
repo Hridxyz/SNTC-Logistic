@@ -1,0 +1,51 @@
+@import "./normalize.css";
+@import "./default.css";
+@import "./fonts.css";
+@import "./variables.css";
+@import "./transitions.css";
+
+.Section {
+   position: relative;
+   height: 100vh;
+   max-height: 1000px;
+   overflow: hidden;
+   padding-inline: var(--Vertical-Squeeze);
+}
+
+.Heading {
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 90.229px;
+   letter-spacing: 0.01em;
+   background: var(--Heading-Text-Gradient);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+
+@media (max-height: 800px) {
+   .Heading {
+      font-size: 60px;
+   }
+}
+
+@media (max-width: 1024px) {
+   .Heading {
+      font-size: 60px;
+   }
+}
+
+@media (max-width: 425px) {
+   .Heading {
+      font-size: 45px;
+   }
+}
+@media (max-width: 380px) {
+   .Heading {
+      font-size: 30pt;
+   }
+}

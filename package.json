@@ -1,0 +1,33 @@
+{
+   "name": "SNTC-logistics",
+   "version": "1.0.0",
+   "start-date": "11/1/2022",
+   "description": "A full website for a logistics company in Lagos, Nigeria.",
+   "main": "main.js",
+   "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "test": "vitest",
+      "coverage": "vitest run --coverage"
+   },
+   "keywords": [],
+   "author": "adebola-io",
+   "license": "ISC",
+   "devDependencies": {
+      "@testing-library/vue": "^6.6.1",
+      "@vitejs/plugin-vue": "^3.2.0",
+      "@vitest/coverage-c8": "^0.24.5",
+      "@vue/compiler-sfc": "^3.2.41",
+      "@vue/test-utils": "2.0.0-rc.18",
+      "happy-dom": "^7.6.6",
+      "vite": "^3.2.2",
+      "vitest": "^0.24.5"
+   },
+   "dependencies": {
+      "@pinia/testing": "^0.0.14",
+      "gsap": "^3.11.3",
+      "pinia": "^2.0.23",
+      "vue": "^3.2.41",
+      "vue-router": "^4.1.6"
+   }
+}

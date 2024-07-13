@@ -1,0 +1,33 @@
+:root {
+   --Dark-Green: #204b57;
+   --Another-Dark-Green: #125e8a;
+   --Yet-Another-Dark-Green: #08527c;
+   --Heading-Text-Gradient: linear-gradient(
+      94.74deg,
+      #3c92ca 10.56%,
+      #125e8a 94.88%
+   );
+   --Vertical-Squeeze: 120px;
+   --Header-Size: 106px;
+}
+@media (min-width: 2000px) {
+   :root {
+      --Vertical-Squeeze: 220px;
+   }
+}
+
+@media (max-width: 1024px) {
+   :root {
+      --Vertical-Squeeze: 5vw;
+   }
+}
+
+@media (max-width: 425px) {
+   :root {
+      --Header-Size: 75px;
+   }
+}
+
+body {
+   color: var(--Dark-Green);
+}
